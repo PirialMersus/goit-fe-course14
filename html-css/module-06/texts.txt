@@ -1,0 +1,5 @@
+montserrat bold
+montserrat regular
+kaushanscript regular
+roboto regular
+roboto lightitalic
