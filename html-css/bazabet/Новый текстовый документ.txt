@@ -1,0 +1,9 @@
+.Прямоугольник__скругл__углы_2_копия_2 {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 177px;
+  top: 528px;
+  width: 173px;
+  height: 270px;
+  z-index: 51;
+}
