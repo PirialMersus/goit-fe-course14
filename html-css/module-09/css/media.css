@@ -1,0 +1,33 @@
+@media screen and (max-width: 747px) {
+}
+@media screen and (min-width: 748px) {
+  .site-header {
+    width: 100%;
+    background-image: url(../img/background-tablet2.jpg);
+    height: 700px;
+
+  }
+  .partners-section {
+    width: 492px;
+  }
+  .site-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .height-site-nav {
+    height: 116px;
+  }
+
+}
+
+@media screen and (min-width: 942px) {
+.site-header {
+  background-image: url(../img/background-desktop.jpg);
+}
+.partners-section {
+  width: 942px;
+}
+
+}

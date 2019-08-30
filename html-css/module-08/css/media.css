@@ -36,7 +36,7 @@
     width: 100%;
     background-image: url(../img/background-tablet2.jpg);
     height: 700px;
-    /* margin-bottom: 74px; */
+
   }
   .login {
     margin: 0;
@@ -86,12 +86,12 @@
     width: 100%;
     background-image: url(../img/background-desktop.jpg);
     height: 700px;
+    
   }
   .container {
     width: 942px;
   }
   .partners {
-    /* height: 262px; */
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 38px;
