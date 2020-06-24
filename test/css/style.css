@@ -22,22 +22,24 @@ body {
 a {
   text-decoration: none;
 }
-ul,
+/* ul,
 li {
   display: block;
   margin: 0;
   padding: 0;
-}
-
-/*============= HEADER =============*/
+} */
 .login {
+  /* display: inline-block; */
   padding-top: 34px;
   margin-bottom: 136px;
   list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 .login-item {
-  color: white;
+  text-decoration: none;
+  color: aliceblue;
   border: 2px solid transparent;
   padding-left: 16px;
   padding-right: 16px;
@@ -51,34 +53,46 @@ li {
   border-radius: 20px;
   color: white;
 }
-.site-header {
-  /* text-align: center; */
-  /* margin: 0 auto; */
+.site-background {
+  text-align: center;
   width: 320px;
   height: 540px;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 0;
   color: white;
   background-image: url(../img/background-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 70px;
 }
-.logo:hover {
+/* .site-header {
+  text-align: center;
+  margin: 0 auto;
+  width: 320px;
+  height: 540px;
+  background-color: rgb(65, 65, 75);
+  margin-bottom: 70px;
   color: white;
-  text-decoration: none;
-  border: 2px solid white;
-  border-radius: 20px;
-}
+} */
 .logo {
   border: 2px solid transparent;
   font-size: 20px;
   margin: 0;
   padding: 0;
-  margin-bottom: 38px;
+  margin-bottom: 100px;
   color: white;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.logo:hover {
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.site-header {
+  margin-bottom: 38px;
 }
 .title {
   text-transform: uppercase;
@@ -105,36 +119,41 @@ li {
   background: #ff4e50;
   padding-top: 10px;
   padding-bottom: 10px;
+  /* padding-left: 50px;
+    padding-right: 50px; */
   border-radius: 20px;
 }
-a:focus {
-  color: red;
-}
 .search:hover {
-  text-decoration: none;
-  color: white;
   box-shadow: 0px -1px 10px 4px #4effbe;
 }
-/* ==================main ===============*/
 .partners-section {
-  text-align: center;
   width: 320px;
   margin: 0 auto;
   padding-bottom: 56px;
+  background: blanchedalmond;
 }
 .partners-title {
   font-size: 22px;
+  margin: 0;
+  text-align: center;
   margin-bottom: 18px;
 }
 .partners {
   margin: 0;
   padding: 0;
+  text-align: center;
+
   list-style: none;
   margin-bottom: 30px;
 }
 .partners-item {
   margin-bottom: 30px;
   padding: 10px;
+}
+.partners-item:hover {
+  box-shadow: 0px 0px 18px #253688;
+  border-radius: 60px;
+  box-shadow: 0px -1px 10px 4px #4effbe;
 }
 .partners-link {
   display: block;
@@ -150,17 +169,11 @@ a:focus {
 .icons {
   width: 38px;
   height: 38px;
-  border: 4px solid white;
+  border: 4px solid black;
   border-radius: 50%;
   position: absolute;
   right: -4px;
   bottom: -4px;
-}
-.icon-tv {
-  background: #ff4e50;
-  background-image: url(../img/icon-tv.png);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .name {
   color: black;
@@ -175,26 +188,10 @@ a:focus {
   color: #666666;
   max-width: 220px;
   margin: 0 auto;
-
   font-size: 14px;
 }
-.icon-flask {
-  background: #ffa507;
-  background-image: url(../img/icon-flask.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.icon-cup {
-  background: #1cd7ad;
-  background-image: url(../img/icon-cup.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.icon-plane {
-  background: #4e73db;
-  background-image: url(../img/icon-plane.png);
-  background-repeat: no-repeat;
-  background-position: center;
+.for_link {
+  text-align: center;
 }
 .other-partners-link {
   width: 280px;
@@ -205,19 +202,11 @@ a:focus {
   color: #ff4e50;
   padding-top: 12px;
   padding-bottom: 12px;
+  /* padding-left: 68px;
+    padding-right: 68px; */
   border: 2px solid #ff4e50;
   border-radius: 20px;
 }
 .other-partners-link:hover {
   box-shadow: 0px -1px 10px 4px #4effbe;
-  color: #ff4e50;
-}
-.partners-item:hover {
-  box-shadow: 0px 0px 18px #253688;
-  border-radius: 60px;
-  box-shadow: 0px -1px 10px 4px #4effbe;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none !important;
 }
