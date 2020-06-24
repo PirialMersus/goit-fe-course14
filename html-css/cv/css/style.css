@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Tahoma";
+  font-family: 'Literata', serif;
 }
 h1,
 h2,
@@ -17,7 +17,7 @@ div,
 p {
   margin: 0;
   padding: 0;
-  font-family: "Tahoma";
+  font-family: 'Literata', serif;
   font-size: 16px;
   font-weight: 400;
   color: #000000;
@@ -39,14 +39,14 @@ img {
 }
 .photoAndGeneralInformation {
     display: flex;
-    border: 2px solid #000;
     transition: 0.3s ease all;
     margin-bottom: 10px;
     box-sizing: border-box;
     animation: border-appear 1s linear;
+    border: 2px solid rgb(156, 150, 150);
 }
 .photoAndGeneralInformation:hover {
-    border: 2px solid rgb(156, 150, 150);
+    border: 2px solid #000;
 }
 .myPhoto {
     max-width: 50%;
