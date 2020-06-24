@@ -10,8 +10,8 @@ h3,
 h4,
 h5,
 h6,
-ul,
-li,
+/* ul,
+li, */
 a,
 div,
 p {
@@ -98,6 +98,12 @@ a {
 }
 .information p:last-child {
     text-align: center;
+}
+.skills {
+    list-style-type:none;
+}
+ul.skills li:before {
+    content:"\2713\0020";
 }
 @keyframes img-appear {
     0% {
