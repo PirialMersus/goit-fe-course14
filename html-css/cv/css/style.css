@@ -164,10 +164,15 @@ ul.skills li:before {
     }
     .information {
         padding: 40px;
-        /* box-sizing: content-box; */
     }
-    /* .photoAndGeneralInformation {
-        box-sizing: content-box;
-    } */
+
+}
+@media (max-width: 550px) {
+    p, li, a {
+        font-size: 12px;
+    }
+    .information {
+        padding: 20px;
+    }
 }
 
